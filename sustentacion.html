@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sustentación - Proyecto Producción Multimedial ITSA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+      color: #fff;
+      min-height: 100vh;
+    }
+    header {
+      background: #111;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 0 30px rgba(255, 0, 255, 0.4);
+    }
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      color: #ff00ff;
+      font-size: 2.5rem;
+    }
+    nav {
+      background-color: #1a1a1a;
+      text-align: center;
+      padding: 15px;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+      margin: 0 10px;
+      padding: 10px 20px;
+      background: #ff00ff33;
+      border: 2px solid #ff00ff88;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: 0.3s ease-in-out;
+    }
+    nav a:hover {
+      background-color: #ff00ff;
+      color: #000;
+      transform: scale(1.05);
+    }
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 60px 20px;
+      animation: fadeIn 1s ease-in;
+    }
+    h2 {
+      color: #ffcc00;
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+    }
+    p {
+      margin-bottom: 20px;
+      line-height: 1.6;
+      font-size: 1.1rem;
+    }
+    .video-container {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    iframe {
+      width: 90%;
+      max-width: 720px;
+      height: 400px;
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 0 25px #ff00ff77;
+    }
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 20px;
+      color: #aaa;
+      font-size: 0.9rem;
+      margin-top: 50px;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><i class="fas fa-microphone-alt"></i> Sustentación del Proyecto</h1>
+  </header>
+
+  <nav>
+    <a href="index.html"><i class="fas fa-home"></i> Inicio</a>
+    <a href="sustentacion.html"><i class="fas fa-Carpet"></i> Sustentación</a>
+    <a href="albumes.html"><i class="fas fa-images"></i> Álbumes</a>
+    <a href="folletos.html"><i class="fas fa-book-open"></i> Folletos</a>
+    <a href="conclusion.html"><i class="fas fa-clipboard"></i> Conclusión</a>
+    <a href="index2.html"><i class="fas fa-clipboard"></i> Pagina web Inteligencia Artificial</a>
+  </nav>
+
+  <main>
+    <h2><i class="fas fa-certificate"></i> Sustentación</h2>
+    <p>En esta sección presentamos el video de la sustentación final del proyecto, donde se explica todo lo trabajado a lo largo del curso de Producción Multimedial, desde los conceptos hasta la ejecución práctica utilizando herramientas como GIMP, Inkscape y Visual Studio Code.</p>
+    
+    <div class="video-container">
+      <p><strong>A continuación puedes ver el video de la sustentación:</strong></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/pFNm98djNEk?si=XocO9E7wZ_c-TWrz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 - Proyecto realizado por Johan Carrillo - ITSA
+  </footer>
+
+</body>
+</html>
